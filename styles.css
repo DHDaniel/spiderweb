@@ -1,0 +1,29 @@
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+#spiderweb-wrapper {
+  background-color: #444;
+
+  position: relative;
+  display: block;
+  height: 500px;
+  width: 500px;
+  top: 100px;
+  left: 100px;
+}
+
+#spiderweb-wrapper a {
+  position: absolute;
+  color: #eee;
+}
